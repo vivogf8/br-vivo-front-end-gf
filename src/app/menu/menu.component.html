@@ -1,0 +1,21 @@
+   <nav id="menu">
+      <img src="/assets/images/menu-logo.gif">
+      <div class="menu-username">
+        <span class="menu-username-id">#11</span> Username
+      </div>
+      <ul class="right hide-on-med-and-down">
+        <li><a routerLink="/acompanhamento">Acompanhamento Por Lote</a></li>
+        <li><a routerLink="/regras">Consultar Chamados e Alertas</a></li>
+        <li><a class="dorpdown-button" data-activates="dropdown" ></a></li>
+        <button mat-button [matMenuTriggerFor]="menu">Parametrização</button>
+        <mat-menu #menu="matMenu">
+        <button mat-menu-item  routerLink="/regras">Regras</button>
+        <button mat-menu-item routerLink="/ciclos">Ciclos</button>
+        <button mat-menu-item routerLink="/series">Séries</button>
+        <button mat-menu-item routerLink="/operadoras">Operadoras</button>
+        <button mat-menu-item routerLink="">Sair</button>
+        </mat-menu>
+      </ul>
+    
+  </nav>
+  

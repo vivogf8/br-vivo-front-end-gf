@@ -1,0 +1,32 @@
+#menu {
+	background: linear-gradient(#3e627f, #42656e);
+    background: -webkit-linear-gradient(#3e627f, #42656e);
+    background: -moz-linear-gradient(#3e627f, #42656e);
+    background: -o-linear-gradient(#3e627f, #42656e);
+	
+	width: 250px;
+    height: 100vh;
+    position: fixed;
+    z-index: 20;
+    font-family: 'ITCOfficinaSerifBold', arial;
+}
+
+#menu ul li {
+    width: 100%;
+}
+
+.menu-username {
+    background: #32556f;
+    font-family: "ITCOfficinaSerifBookRegular", Arial;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.menu-username-id {
+    color: #baff00;
+    font-weight: bold;
+    font-size: .8em;
+    position: relative;
+    top: -3px;
+}

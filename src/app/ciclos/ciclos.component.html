@@ -1,0 +1,148 @@
+<app-menu></app-menu>
+<!-- Breadcrumb -->
+<div aria-label="breadcrumb">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item home"><a href="#"><img src="/assets/images/breadcrumb-logo.png" alt=""> Guardião Fiscal</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Ciclos</li>
+	</ol>
+</div>
+<!-- /Breadcrumb -->
+
+<section id="conteudo">
+  
+  <!-- Titulo -->
+	<div class="row mb-3">
+		<div class="col-md-8">
+			<h1>Ciclos</h1>
+		</div>
+		<div class="col-md-4 text-right">
+			<a class="btn btn-primary" routerLink="/formulario" role="button"><span class="fas fa-plus"></span> Novo</a>
+			<a class="btn btn-primary" routerLink="#" role="button"><span class="fas fa-edit"></span> Editar</a>
+		</div>
+	</div>
+  <!-- /Titulo -->
+  
+	<div class="box">
+		<!-- Filtro -->
+		<div class="row">
+			<div class="col-md-3 form-group">
+				<label>ID Ciclo</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-3 form-group">
+				<label>Ciclo</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-3 form-group">
+				<label>Data de Corte</label>
+        <input type="text" class="form-control datepicker">
+			</div>
+			<div class="col-md-3 form-group">
+				<label>Latência</label>
+				<input type="text" class="form-control">
+			</div>
+			<div class="col-md-3 form-group">
+				<label>Sistema</label>
+				<select name="" class="form-control">
+					<option value="">Sem filtro</option>
+					<option value="">Atlys</option>
+					<option value="">NGIN</option>
+					<option value="">Vivo Next</option>
+				</select>
+			</div>
+			<div class="col-md-3 form-group">
+				<label>Status</label>
+				<select name="" class="form-control">
+					<option value="">Sem filtro</option>
+					<option value="">Ativo</option>
+					<option value="">Inativo</option>
+				</select>
+			</div>
+			<div class="col-md-3 sem-label">
+				<a class="btn btn-primary btn-sm"><span class="fas fa-filter"></span> Filtrar</a>
+				<a href="" class="btn btn-secondary btn-sm"><span class="fas fa-eraser"></span> Limpar</a>
+			</div>
+		</div>
+    <!-- /Filtro -->
+    
+		<!-- Grid -->
+		<table class="table table-hover table-striped table-sm">
+			<thead>
+				<tr>
+					<th scope="col">ID Ciclo</th>
+					<th scope="col">Ciclo</th>
+					<th scope="col">Data de Corte</th>
+					<th scope="col">Latencia</th>
+					<th scope="col">Sistema</th>
+					<th scope="col">Ativo</th>
+					<th>Ação</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Mark</td>
+					<td>Otto</td>
+					<td>@mdo</td>
+					<td>NGIN</td>
+					<td>
+						<div class="badge badge-success">Ativo</div>
+					</td>
+					<td class="acao">
+						<a href="" class="btn btn-secondary btn-sm"><span class="fas fa-search"></span></a>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Jacob</td>
+					<td>Thornton</td>
+					<td>@fat</td>
+					<td>Vivo Next</td>
+					<td>
+						<div class="badge badge-success">Ativo</div>
+					</td>
+					<td class="acao">
+						<a href="" class="btn btn-secondary btn-sm"><span class="fas fa-search"></span></a>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>Larry</td>
+					<td>the Bird</td>
+					<td>@twitter</td>
+					<td>NGIN</td>
+					<td>
+						<div class="badge badge-danger">Inativo</div>
+					</td>
+					<td class="acao">
+						<a href="" class="btn btn-secondary btn-sm"><span class="fas fa-search"></span></a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+    <!-- /Grid -->
+    
+		<!-- Paginação -->
+		<div aria-label="Page navigation">
+			<ul class="pagination justify-content-center">
+				<li class="page-item">
+					<a class="page-link" href="#" aria-label="Previous">
+					<span aria-hidden="true">«</span>
+					<span class="sr-only">Anterior</span>
+					</a>
+				</li>
+				<li class="page-item active"><a class="page-link" href="#">1</a></li>
+				<li class="page-item"><a class="page-link" href="#">2</a></li>
+				<li class="page-item"><a class="page-link" href="#">3</a></li>
+				<li class="page-item">
+					<a class="page-link" href="#" aria-label="Next">
+					<span aria-hidden="true">»</span>
+					<span class="sr-only">Próximo</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+    <!-- /Paginação -->
+    
+	</div>
+</section>

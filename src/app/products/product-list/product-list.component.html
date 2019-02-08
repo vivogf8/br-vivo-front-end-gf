@@ -1,0 +1,98 @@
+<h5 style=" aling: center">Acompanhamento Por Lote</h5>
+
+<button mat-button [matMenuTriggerFor]="Telas">Telas</button>
+
+<mat-menu #Telas="matMenu">
+    <button mat-button [matMenuTriggerFor]="acompanhamento">Acompanhamento Por Lote
+    </button>
+
+    <button mat-button [matMenuTriggerFor]="arquivo">Acompanhamento Por Arquivo</button>
+    <button mat-button [matMenuTriggerFor]="alertas">Consutar Chamadas e Alertas</button>
+  <button mat-menu-item [matMenuTriggerFor]="parametrizacao">Parametrização</button>
+  <button mat-button [matMenuTriggerFor]="sair">Sair</button>
+</mat-menu>
+
+<mat-menu #parametrizacao="matMenu">
+  <button mat-menu-item>Regras</button>
+  <button mat-menu-item>Ciclos</button>
+  <button mat-menu-item>Séries</button>
+  <button mat-menu-item>Operadoras</button>
+</mat-menu>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Lote
+            <label><input ng-model="searchText"></label>
+        </th>
+        <th scope="col">Sistema
+            <label><input ng-model="searchText"></label>
+        </th>
+        <th scope="col">Ciclo
+            <label><input ng-model="searchText"></label>
+        </th>
+        <th scope="col">Status
+            <label><input ng-model="searchText"></label>
+        </th>
+        <th scope="col">Sitação
+            <label><input ng-model="searchText"></label>
+        </th>
+        <th scope="col">Ação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table class="table table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Primeiro</th>
+        <th scope="col">Último</th>
+        <th scope="col">Nickname</th>
+        <th scope="col">#</th>
+        <th scope="col">Primeiro</th>
+        <th scope="col">Último</th>
+        <th scope="col">Nickname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>

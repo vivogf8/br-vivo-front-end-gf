@@ -1,0 +1,196 @@
+/*  You can add global styles to this file, and also import other style files */
+@import  '~@angular/material/prebuilt-themes/indigo-pink.css' ;
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+/* Font */
+@import url("assets/fonts/ITCOfficinaSerifBold.css"); /* ITCOfficinaSerifBookRegular ITCOfficinaSerifBold */
+
+
+html body {
+    background: #eef4f9;
+    font-size: 12px;
+}
+
+body h1 {
+    font-family: 'ITCOfficinaSerifBold', arial;
+    font-size: 2em;
+    color: #4f84ae;
+    margin: 0;
+    position: relative;
+    top: 5px;
+}
+
+body a { color: #4f84ae; }
+
+.box {
+	background: #fff;
+	padding: 16px;
+	
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 9px 26px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* CONTEUDO */
+#conteudo {
+    margin-left: 250px;
+    padding: 15px;
+}
+
+/* TOPO */
+#topo {
+    background: #fff;
+    padding: 15px;
+}
+
+/* RODAPE */
+.rodape-botoes {
+	text-align: center;
+	margin-top: 25px;
+}
+
+/* RODAPE */
+.rodape-botoes {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* GRID */
+.row {
+    margin-bottom: 0;
+}
+
+.row + .row, .row + .table, .table + .row {
+    margin-top: 20px;
+}
+
+/* BTN */
+body .btn {
+    color: #fff !important;
+    height: auto;
+    font-family: 'ITCOfficinaSerifBookRegular', arial;
+    line-height: 18px;
+}
+
+.btn.btn-primary {
+	background: #3e627f;
+	border-color: #2a4b66;
+}
+.btn.btn-primary:hover {
+	background: #4f84ae;
+	border-color: #44759d;
+}
+
+.btn.btn-outline-primary {
+    color: #3e627f;
+    border-color: #3e627f;
+}
+
+.btn.btn-outline-primary:hover {
+    background: #3e627f;
+    border-color: #2a4b66;
+}
+
+.btn+.btn {
+    margin-left: 5px;
+}
+
+.acao .btn-sm {
+    padding: 0.30rem .5rem;
+    display: inline;
+}
+
+.acao .btn-secondary:hover {
+    background: #4b89bb;
+    border-color: #4b89bb;
+}
+
+
+/* TABELA */
+body .table td, body .table th {
+	text-align: center;
+}
+
+body .table-sm td, body .table-sm th {
+    padding: .5rem .3rem;
+}
+
+.table thead th {
+    border-top: none;
+    font-family: 'ITCOfficinaSerifBookRegular', arial;
+}
+
+
+/* PAGINATION */
+nav.navigation {
+    background: transparent;
+}
+
+body .pagination {
+    margin-bottom: 0;
+}
+
+.pagination li a {
+	font-size: 1em;
+}
+
+body .page-item.active .page-link {
+    background-color: #3e627f;
+    border-color: #42656e;
+}
+
+/* FORMULARIO */
+body label {
+    margin-bottom: 0;
+}
+
+body .form-control {
+    font-size: 1em;
+    height: calc(1.75rem + 2px);
+    padding: .375rem .55rem;
+}
+
+.sem-label {
+    padding-top: 18px;
+}
+
+
+/* BADGE */
+body .badge {
+    font-size: .9em;
+}
+
+
+/* BREADCRUMB */
+body .breadcrumb {
+	background: #fff;
+	margin-left: 250px;
+	font-size: 1.2em;
+	font-family: 'ITCOfficinaSerifBold', Arial;
+	margin-bottom: 0;
+}
+
+body .breadcrumb li {
+	line-height: normal;
+}
+
+body .breadcrumb li.home img {
+	position: relative;
+	top: -2px;
+}
+
+body .breadcrumb .active {
+	color: #bbb;
+	font-family: "ITCOfficinaSerifBookRegular", arial;
+	font-size: 1.1em;
+}
+
+body .breadcrumb-item+.breadcrumb-item::before {
+	color: #ddd;
+	font-family: Font Awesome\ 5 Free;
+    font-weight: 900;
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+    content: "\f105";
+}

@@ -1,0 +1,68 @@
+<app-menu></app-menu>
+<!-- Breadcrumb -->
+<div aria-label="breadcrumb">
+	<ol class="breadcrumb">
+      <li class="breadcrumb-item home"><a href="#"><img src="/assets/images/breadcrumb-logo.png" alt=""> Guardião Fiscal</a></li>
+      <li class="breadcrumb-item home"><a href="/operadoras">Operadoras</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Edição de Operadora</li>
+	</ol>
+</div>
+<!-- /Breadcrumb -->
+
+<section id="conteudo">
+
+    <!-- Titulo -->
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <h1>Edição de Operadora</h1>
+      </div>
+    </div>
+    <!-- /Titulo -->
+
+    <div class="box">
+        <form>
+          <div class="row">
+
+            <div class="col-md-3 form-group">
+              <label for="formGroupExampleInput">ID Operadora</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" readonly value="5526">
+            </div>
+
+            <div class="col-md-3 form-group">
+              <label for="formGroupExampleInput2">Cod Operadora</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" >
+            </div>
+
+            <div class="col-md-3 form-group">
+                <label for="formGroupExampleInput2">Nome Operadora</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" >
+              </div>
+
+              <div class="col-md-3 form-group">
+                  <label for="formGroupExampleInput2">Sistema</label>
+                  <select name="" class="form-control" id="formGroupExampleInput2">
+                    <option value="">Selecione...</option>
+                    <option value="">Atlys</option>
+                    <option value="">Ngin</option>
+                    <option value="">Vivo Next</option>
+                  </select>
+                </div>
+
+                <div class="col-md-3 form-group">
+                    <app-radiobutton></app-radiobutton>
+                  </div>
+            </div>
+              
+          </form>
+
+          
+    </div>
+ 
+      <!-- Botões -->
+      <div class="rodape-botoes">
+        <a class="btn btn-success" routerLink="/formulario" role="button"><span class="far fa-save"></span> Salvar</a>
+        <a class="btn btn-danger" routerLink="/formulario" role="button"><span class="fas fa-times"></span> Cancelar</a> 
+      </div>
+      <!-- /Botões -->
+  
+    </section>

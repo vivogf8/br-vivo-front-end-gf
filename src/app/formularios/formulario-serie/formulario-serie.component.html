@@ -1,0 +1,88 @@
+<app-menu></app-menu>
+<!-- Breadcrumb -->
+<div aria-label="breadcrumb">
+	<ol class="breadcrumb">
+      <li class="breadcrumb-item home"><a href="#"><img src="/assets/images/breadcrumb-logo.png" alt=""> Guardião Fiscal</a></li>
+      <li class="breadcrumb-item home"><a href="/series">Séries</a></li>
+		<li class="breadcrumb-item active" aria-current="page">Edição de Série</li>
+	</ol>
+</div>
+<!-- /Breadcrumb -->
+
+<section id="conteudo">
+
+  <!-- Titulo -->
+  <div class="row mb-3">
+      <div class="col-md-8">
+        <h1>Edição de Série</h1>
+      </div>
+    </div>
+    <!-- /Titulo -->
+
+    <div class="box">
+      <form>
+        <div class="row">
+          <div class="col-md-3 form-group">
+            <label for="formGroupExampleInput">UF</label>
+              
+            <select name="" class="form-control" id="formGroupExampleInput">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+          </div>
+
+          <div class="col-md-3 form-group">
+            <label for="formGroupExampleInput2">Cod Filial</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" >
+          </div>
+
+          <div class="col-md-3 form-group">
+              <label for="formGroupExampleInput2">Série</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" >
+            </div>
+
+              <div class="col-md-3 form-group">
+                  <label for="formGroupExampleInput2">Sistema</label>
+                  <select name="" class="form-control" id="formGroupExampleInput2">
+                    <option value="">Selecione...</option>
+                    <option value="">Atlys</option>
+                    <option value="">Ngin</option>
+                    <option value="">Vivo Next</option>
+                  </select>
+                </div>
+              </div>
+        </form>
+</div>
+       
+      <!-- Botões -->
+      <div class="rodape-botoes">
+          <a class="btn btn-success" routerLink="/formulario" role="button"><span class="far fa-save"></span> Salvar</a>
+          <a class="btn btn-danger" routerLink="/formulario" role="button"><span class="fas fa-times"></span> Cancelar</a> 
+        </div>
+        <!-- /Botões -->
+  </section>
