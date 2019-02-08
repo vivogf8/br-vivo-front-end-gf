@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # AnjoGuardiao
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
@@ -30,3 +31,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # br-vivo-gf-ang
 Front-end Angular Guardião Fiscal
 >>>>>>> 815771792b7d6fefc98d794d8c625013e8094be1
+=======
+# br-vivo-front-end-gf
+>>>>>>> 64e3eaadc5cbe9ca812b6fb35d97e008651bf2ca
